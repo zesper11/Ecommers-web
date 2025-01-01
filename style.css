@@ -123,3 +123,63 @@ nav a:hover,nav a.active{
   background-repeat: no-repeat;
   font-size: 15px;
 }
+
+/* features */
+
+.feature{
+  display: flex;
+  align-items: center;
+  height: 40vh;
+  margin: auto;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.feature-box{
+  border: 1px solid rgba(128, 128, 128, 0.212);
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.06);
+  width: 200px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 15px;
+  margin: auto;
+  border-radius: 7px;
+}
+
+.feature-img{
+  margin: auto;
+  width: 80%;
+}
+
+.feature-text{
+  padding: 7px 10px;
+  font-weight: 600;
+  font-size: 15px;
+  color: #088178;
+  border-radius: 4px;
+  width: 70%;
+  margin-inline: auto;
+  text-align: center;
+}
+
+.feature-text-1{
+  background-color: #fedfe5;
+}
+
+.feature-text-2{
+  background-color: #c9eac0;
+}
+
+.feature-text-3{
+  background-color: #d1e8f1;
+}
+
+.feature-text-4{
+  background-color: #f6dbf2;
+}
+
+.feature-text-5{
+  background-color: #faf1e2;
+}
