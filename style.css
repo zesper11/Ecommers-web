@@ -183,3 +183,55 @@ nav a:hover,nav a.active{
 .feature-text-5{
   background-color: #faf1e2;
 }
+
+/* featured products */
+
+.feat-products{
+  text-align: center;
+}
+
+.prod-container{
+  min-width: 250px;
+  width: 23%;
+  padding: 10px 12px;
+  border: 1px solid #cce7d0;
+  border-radius: 5%;
+  cursor: pointer;
+  box-shadow: 20px 20px 30px rgba(0,0,0,0.02);
+  margin: 15px 0px;
+  transition: 0.2s ease;
+}
+
+.prod-container:hover{
+  box-shadow: 20px 20px 35px rgba(0, 0, 0, 0.062);
+}
+
+.prod-container img{
+  width: 100%;
+  border-radius: 5%;
+}
+
+.prod{
+  text-align: start;
+}
+
+.prod span{
+  color: #606063;
+  font-size: 12px;
+}
+
+.prod h5{
+  font-size: 14px;
+  color: #1a1a1a;
+  padding-top: 7px;
+}
+
+.prod i{
+  color: rgb(255, 166, 0);
+  padding-top: 3px;
+}
+
+.prod h4{
+  color: #088178;
+  padding-top: 7px;
+}
