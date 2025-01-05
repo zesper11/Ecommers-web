@@ -254,3 +254,139 @@ nav a:hover,nav a.active{
 .prod-container a i:hover{
   background-color: #0881793d;
 }
+
+/* banner */
+
+.banner{
+  height: 40vh;
+  flex-direction: column;
+  width: 100%;
+  background-image: url(/img/banner/b2.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition-duration: 0.2s;
+}
+
+.banner h4{
+  color: #ffff;
+  font-size: 16px;
+}
+
+.banner h2{
+  color: #ffff;
+  font-size: 32px;
+  margin: 10px;
+}
+
+.banner h2 b{
+  color: #ef3636;
+}
+
+.normal-btn{
+  padding: 15px 30px;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.banner-btn:hover{
+  background-color: #088178;
+  color: #fff;
+}
+
+/* sm banner */
+
+.sm-banner{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.sm-banner-large{
+  width: 48%;
+  height: 45vh;
+  text-align: start;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sm-banner-large:nth-child(1){
+  background-image: url(/img/banner/b17.jpg);
+}
+
+.sm-banner-large:nth-child(2){
+  background-image: url(/img/banner/b10.jpg);
+}
+
+.sm-banner-large > *{
+  margin-left: 10%;
+}
+
+.sm-banner-large-btn{
+  max-width: fit-content;
+  border: 2px solid #ffff;
+  background-color: #ffffff00;
+  border-radius: 1px;
+  color: white;
+}
+
+.sm-banner-large-btn:hover{
+  background-color: #088178;
+  color: #fff;
+  border-color: #088178;
+}
+
+.sm-banner h4{
+  font-size: 20px;
+  color: #fff;
+}
+
+.sm-banner h2{
+  font-size: 25px;
+  font-weight: 760;
+  color: white;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.sm-banner p{
+  margin: 0px;
+  margin-bottom: 15px;
+  margin-left: 10%;
+  color: #ffff;
+}
+
+.sm-banner-small{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 31%;
+  height: 30vh;
+}
+
+.sm-banner-small{
+  background-size: cover;
+  margin: 3% 0px 3% 0px;
+}
+
+.sm-banner-small >*{
+  margin-left: 10%;
+}
+
+.sm-banner-small:nth-child(3) {
+  background-image: url(/img/banner/b7.jpg);
+}
+
+.sm-banner-small:nth-child(4) {
+  background-image: url(/img/banner/b4.jpg);
+}
+
+.sm-banner-small:nth-child(5) {
+  background-image: url(/img/banner/b18.jpg);
+}
