@@ -37,7 +37,6 @@ h6 {
 p {
   font-size: 16px;
   color: #465b52;
-  margin: 15px 0 20px 0;
 }
 
 .section-p1 {
@@ -126,6 +125,10 @@ nav a:hover,nav a.active{
   background-color: transparent;
   background-repeat: no-repeat;
   font-size: 15px;
+}
+
+.hero p{
+  margin: 15px 0 20px 0;
 }
 
 /* features */
@@ -389,4 +392,127 @@ nav a:hover,nav a.active{
 
 .sm-banner-small:nth-child(5) {
   background-image: url(/img/banner/b18.jpg);
+}
+
+/* news letters banner*/
+
+.news-letter-banner{
+  height: 25vh;
+  background: url(/img/banner/b14.png);
+  background-color: #041e42;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 10vh;
+  padding-right: 10vh;
+}
+
+.news-letter-banner h2{
+  font-size: 25px;
+  color: #ffff;
+}
+
+.news-letter-banner p{
+  margin: 0px;
+  color: #ffffff42;
+}
+
+
+.news-letter-banner b{
+  color: orange;
+}
+
+.news-letter-banner input{
+  width: 250px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border: none;
+  cursor: text;
+}
+
+.news-letter-banner button{
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border: none;
+  background-color: #088178;
+  color: #ffff;
+}
+
+.news-letter-banner button:hover{
+  background-color: #036e67;
+}
+
+/* footer */
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .col{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.footer .logo{
+  margin-bottom: 20px;
+  margin-top: -15px;
+}
+
+.footer h4{
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+
+.footer p{
+  margin-bottom: 8px;
+  font-size: 13px;
+}
+
+.footer a{
+  margin-bottom: 8px;
+  font-size: 13px;
+  color: #465b52;
+  transition-duration: 0.2s;
+}
+
+.footer .row img{
+  border: 1px solid rgba(0, 153, 255, 0.404);
+  border-radius: 5px;
+}
+
+.footer a:hover{
+  color: black;
+}
+
+
+/* copyright */
+
+.copyright a{
+  text-align: center;
+  font-size: 13px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  color: #465b52;
+}
+
+.copyright a:hover{
+  color: #000000;
+}
+
+.copyright{
+  text-align: center;
+}
+
+.copyright i{
+  color: #465b52;
+  margin: 0px 2px 0px 2px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+i:hover{
+  color: #088178;
 }
