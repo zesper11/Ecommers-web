@@ -71,6 +71,7 @@ header{
   position: sticky;
   top: 0px;
   left: 0px;
+  height: 10vh;
   z-index: 999;
 }
 
@@ -136,7 +137,6 @@ nav a:hover,nav a.active{
 .feature{
   display: flex;
   align-items: center;
-  height: 40vh;
   margin: auto;
   justify-content: space-around;
   flex-direction: row;
@@ -151,7 +151,6 @@ nav a:hover,nav a.active{
   flex-direction: column;
   justify-content: center;
   padding-bottom: 15px;
-  margin: auto;
   border-radius: 7px;
 }
 
