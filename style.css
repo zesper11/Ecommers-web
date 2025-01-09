@@ -199,7 +199,6 @@ nav a:hover,nav a.active{
 }
 
 .prod{
-  min-width: 250px;
   width: 23%;
   padding: 10px 12px;
   border: 1px solid #cce7d070;
@@ -208,7 +207,7 @@ nav a:hover,nav a.active{
   box-shadow: 20px 20px 30px rgba(0,0,0,0.02);
   margin: 15px 0px;
   transition: 0.2s ease;
-  height: 375px;
+  height: auto;
   position: relative;
 }
 
@@ -240,6 +239,7 @@ nav a:hover,nav a.active{
 .prod h4{
   color: #088178;
   padding-top: 7px;
+  padding-bottom: 7px;
 }
 
 .prod a i{
@@ -512,6 +512,6 @@ nav a:hover,nav a.active{
   cursor: pointer;
 }
 
-i:hover{
+.copyright i:hover{
   color: #088178;
 }
