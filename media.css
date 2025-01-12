@@ -1,63 +1,84 @@
 /* home page tablet screen */
 
 @media (max-width : 1000px) {
-    /* global resopnsive style for tablets */
-      h1 {
-        font-size: 30px;
-        line-height: 35px;
-        color: #222;
-      }
-      
-      h2 {
-        font-size: 40px;
-        line-height: 45px;
-        color: #222;
-      }
-      
-      h4 {
-        font-size: 20px;
-        color: #222;
-      }
-      
-      h6 {
-        font-weight: 700;
-        font-size: 12px;
-      }
-      
-      p {
-        font-size: 14px;
-        color: #465b52;
-      }
-      
-      .section-p1 {
-        padding: 30px 10px;
-      }
-      
-      .section-m1 {
-        margin: 20px 0;
-      }
-      
-      a{
-        text-decoration: none;
-      }
-      
-      body {
-        width: 100%;
-      }
-      
-      .section-title{
-        text-align: center;
-      }
-      
-      .prod{
-        width: 30vw;
-        flex-wrap: nowrap;
-        height: auto;
-      }
+  /* global resopnsive style for tablets */
 
-      .hero{
-        background-image: none;
-        background-color: #e3e6f2;
-        height: 90vh;
-      }
+    *{
+      margin: 0px;
+      padding: 0px;
+    }
+  
+    h1 {
+      font-size: 30px;
+      line-height: 35px;
+      color: #222;
+    }
+    
+    h2 {
+      font-size: 40px;
+      line-height: 45px;
+      color: #222;
+    }
+    
+    h4 {
+      font-size: 20px;
+      color: #222;
+    }
+    
+    h6 {
+      font-weight: 700;
+      font-size: 12px;
+    }
+    
+    p {
+      font-size: 14px;
+      color: #465b52;
+    }
+    
+    .section-p1 {
+      padding: 30px 10px;
+    }
+    
+    .section-m1 {
+      margin: 20px 0;
+    }
+    
+    a{
+      text-decoration: none;
+    }
+    
+    body {
+      width: 100%;
+    }
+    
+    .section-title{
+      text-align: center;
+    }
+    
+    .prod{
+      width: 30vw;
+      flex-wrap: nowrap;
+      height: auto;
+    }
+
+    .hero{
+      background-image: none;
+      background-color: #e3e6f2;
+    }
+
+    .nav ul{
+      flex-direction: column;
+    }
+
+    .section-p1 {
+      padding: 0px 0px;
+    }
+    
+    .section-m1 {
+      margin: 0px 0px;
+    }
+
+    *{
+      text-align: center;
+    }
 }
