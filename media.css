@@ -1,84 +1,101 @@
-/* home page tablet screen */
+/* Home Page Tablet Screen */
 
-@media (max-width : 1000px) {
-  /* global resopnsive style for tablets */
+/* Apply styles for screens with a max-width of 1000px */
+@media (max-width: 1000px) {
 
-    *{
-      margin: 0px;
-      padding: 0px;
-    }
-  
-    h1 {
-      font-size: 30px;
-      line-height: 35px;
-      color: #222;
-    }
-    
-    h2 {
-      font-size: 40px;
-      line-height: 45px;
-      color: #222;
-    }
-    
-    h4 {
-      font-size: 20px;
-      color: #222;
-    }
-    
-    h6 {
-      font-weight: 700;
-      font-size: 12px;
-    }
-    
-    p {
-      font-size: 14px;
-      color: #465b52;
-    }
-    
-    .section-p1 {
-      padding: 30px 10px;
-    }
-    
-    .section-m1 {
-      margin: 20px 0;
-    }
-    
-    a{
-      text-decoration: none;
-    }
-    
-    body {
-      width: 100%;
-    }
-    
-    .section-title{
-      text-align: center;
-    }
-    
-    .prod{
-      width: 30vw;
-      flex-wrap: nowrap;
-      height: auto;
-    }
+  /* Reset margin and padding for all elements */
+  * {
+    margin: 0;
+    padding: 0;
+  }
 
-    .hero{
-      background-image: none;
-      background-color: #e3e6f2;
-    }
+  /* Style for main headings */
+  h1 {
+    font-size: 30px;
+    line-height: 35px;
+    color: #222;
+  }
 
-    .nav ul{
-      flex-direction: column;
-    }
+  /* Style for secondary headings */
+  h2 {
+    font-size: 40px;
+    line-height: 45px;
+    color: #222;
+  }
 
-    .section-p1 {
-      padding: 0px 0px;
-    }
-    
-    .section-m1 {
-      margin: 0px 0px;
-    }
+  /* Style for smaller headings */
+  h4 {
+    font-size: 20px;
+    color: #222;
+  }
 
-    *{
-      text-align: center;
-    }
+  /* Style for the smallest headings */
+  h6 {
+    font-weight: 700;
+    font-size: 12px;
+  }
+
+  /* Style for paragraphs */
+  p {
+    font-size: 14px;
+    color: #465b52;
+  }
+
+  /* Padding for the section with class 'section-p1' */
+  .section-p1 {
+    padding: 30px 10px;
+  }
+
+  /* Margin for the section with class 'section-m1' */
+  .section-m1 {
+    margin: 20px 0;
+  }
+
+  /* Remove text decoration for all anchor tags */
+  a {
+    text-decoration: none;
+  }
+
+  /* Set the body width to 100% */
+  body {
+    width: 100%;
+  }
+
+  /* Center-align text for the section title */
+  .section-title {
+    text-align: center;
+  }
+
+  /* Style for products section */
+  .prod {
+    width: 30vw;
+    flex-wrap: nowrap;
+    height: auto;
+  }
+
+  /* Set a background color for the hero section */
+  .hero {
+    background-image: none;
+    background-color: #e3e6f2;
+  }
+
+  /* Style the navigation list as a column */
+  .nav ul {
+    flex-direction: column;
+  }
+
+  /* Override padding for 'section-p1' class (if needed) */
+  .section-p1 {
+    padding: 0;
+  }
+
+  /* Override margin for 'section-m1' class (if needed) */
+  .section-m1 {
+    margin: 0;
+  }
+
+  /* Center-align text globally (could be too aggressive) */
+  * {
+    text-align: center;
+  }
 }
